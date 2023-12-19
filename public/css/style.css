@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Poppins;
+}
+:root {
+    --main-color: #21201E;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--main-color);
+}
+
+.container {
+    height: 100%;
+    display: flex;
+}
+
+/* Evets */
+
+.all-events {
+    width: 100%;
+}
+.canvas-nav {
+    height: 100%;
+}
+.events {
+    width: 100%;
+    height: 385px;
+}
+.events__image {
+    width: 100%;
+    height: 100%;
+}
+.events__title {
+    padding: 44px 44px;
+    position: absolute;
+    display: flex;
+    height: inherit;
+    align-items: end;
+}
+.events__title-inner {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.events__description {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px; /* 100% */
+}   
+.evets__date {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
+.enets__buttons {
+    display: flex;
+    align-items: center;
+    width: 170px;
+    justify-content: space-between;
+}
+.evets__watch-button {
+    padding: 14px 30px;
+    border: 1px solid #0094C2;
+    border-radius: 14px;
+    background: #0094C2;
+    color: var(--8, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+}
+.evets__watch-button:hover {
+    background-color: aqua;
+    transition: background-color .7s;
+}
+.evets__heard-button {
+    padding: 10px 15px;
+    border-radius: 14px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+/* Curses */
+
+.curses {
+    position: relative;
+    padding: 40px 90px 30px 60px;
+}
+.curses > span {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+/* Card */
+/* .cards {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.card {
+    width: 278px;
+    height: 263px;
+    border: 1px solid white;
+    position: relative;
+    border-radius: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card__image-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.card__title {
+    position: relative;
+    color: black;
+    padding: 5px 30px;
+    border: 1px solid white;
+    background-color: white;
+    height: 54px;
+    border-radius: 20px 20px 150px 150px;
+    position: relative;
+    transform: translateY(0);
+    transition: transform 1s;
+}
+
+.card__title::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    height: 8px;
+    width: 100%;
+    box-shadow: 0px 0px 15px 0px rgba(17, 141, 168, 0.4);
+    border-radius: 50%;
+    background-color:rgba(17, 141, 168, 0.4);
+    transform: translate(-50%, 0);
+    transition: transform 1s;
+}
+.card__title:hover {
+    transform: translateY(-40px);
+    transition: transform 1s;
+}
+.card__title:hover::after {
+    transform: translate(-50%, 40px) scale(0.75);
+    transition: transform 1s;
+} */
+
+.cards {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.article-card {
+    width: 320px;
+    height: 320px;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 300ms;
+  }
+  
+  .article-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  
+  .article-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .article-card .content {
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    padding: 30px 20px 20px 20px;
+    height: auto;
+    bottom: 0;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.6));
+  }
+  
+  .article-card .date,
+  .article-card .title {
+    margin: 0;
+  }
+  
+  .article-card .date {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 4px;
+  }
+  
+  .article-card .title {
+    font-size: 17px;
+    color: #fff;
+  }
+  

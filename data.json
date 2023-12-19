@@ -1,0 +1,22 @@
+  {
+    "items": [
+        {
+            "images": "/book.png",
+            "url": "/book",
+            "name": "Обмен книгами",
+            "date": "2023.12.24"
+        },
+        {
+            "images": "/study.png",
+            "url": "/exp",
+            "name": "Обмен Опытом",
+            "date": "2023.12.24"
+        },
+        {
+            "images": "/exp.png",
+            "url": "/study",
+            "name": "Обмен знаниями",
+            "date": "2023.12.24"
+        }
+    ]
+}

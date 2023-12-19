@@ -1,0 +1,25 @@
+<div class="main">
+    <div class="events">
+        <div class="events__title">
+            <div class="events__title-inner">
+                <span class="events__description">Events</span>
+                <span class="evets__date">23.12.24 | Expert CEO | Narxoz</span>
+                <div class="enets__buttons">
+                    <button class="evets__watch-button">Watch</button>
+                    <button class="evets__heard-button"><img src="/heart-events.svg" alt=""></button>
+                </div>
+            </div>
+        </div>
+        <div class="events__image">
+            <img class="events__image" src="/image-4.png" alt="">
+        </div>
+    </div>
+    <div class="curses">
+        <span>Curses</span>
+    </div>
+    <div class="cards">
+        <% data.forEach((item) => { %>
+            <%- include('./card.ejs', { item: item }) %>
+        <% }); %>
+    </div>
+</div>
