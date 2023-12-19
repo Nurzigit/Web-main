@@ -14,10 +14,13 @@
     </a>
 </div> -->
 
-<div class="article-card">
-    <div class="content">
-      <p class="date"><%= item.date %></p>
-      <p class="title"><%= item.name %></p>
+<a href="<%= item.url %>">
+    <div class="article-card">
+        <div class="content">
+          <p class="date"><%= item.date %></p>
+          <p class="title"><%= item.name %></p>
+        </div>
+        <img src="<%= item.images %>" alt="article-cover" />
     </div>
-    <img src="<%= item.images %>" alt="article-cover" />
-  </div>
+</a>
+

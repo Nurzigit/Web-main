@@ -39,7 +39,11 @@ function runServer(data) {
         res.render('index', { data: data.items });
     });
 
-    const port = 3001;
+    app.get('/Favourites', (req, res) => {
+        res.render('./src/fav', { data: data.items });
+    });
+
+    const port = 3000;
     app.listen(port, () => {
         console.log(`Server is running on http://localhost:${port}`);
     });

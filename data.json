@@ -1,22 +1,25 @@
   {
     "items": [
         {
-            "images": "/book.png",
+            "images": "/image_1.png",
             "url": "/book",
             "name": "Обмен книгами",
-            "date": "2023.12.24"
+            "date": "2023.12.24",
+            "isFavourite": true
         },
         {
-            "images": "/study.png",
+            "images": "/image_1.png",
             "url": "/exp",
             "name": "Обмен Опытом",
-            "date": "2023.12.24"
+            "date": "2023.12.24",
+            "isFavourite": false
         },
         {
-            "images": "/exp.png",
+            "images": "/image_1.png",
             "url": "/study",
             "name": "Обмен знаниями",
-            "date": "2023.12.24"
+            "date": "2023.12.24",
+            "isFavourite": false
         }
     ]
 }

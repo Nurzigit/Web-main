@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/header.css">
+    <title>Favourites</title>
+</head>
+<body>
+   <div class="container">
+    <%- include('./header.ejs'); %>
+    <div class="favourites__body">
+        <div class="favourites__body-text">
+            <span>Favourites</span>
+        </div>
+        <div class="cards">
+            <% data.forEach((item) => { %>
+                <% if (item.isFavourite) { %>
+                    <%- include('./card.ejs', { item: item }) %>
+                    <% } %>
+            <% }); %>
+        </div>
+    </div>
+   </div>
+</body>
+</html>
