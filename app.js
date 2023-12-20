@@ -36,12 +36,22 @@ function runServer(data) {
 
     // Рендеринг шаблона index.ejs с передачей данных
     app.get('/', (req, res) => {
-        res.render('index', { data: data.items });
+        res.render('index', { data: data});
     });
 
     app.get('/Favourites', (req, res) => {
-        res.render('./src/fav', { data: data.items });
+        res.render('./src/fav', { data: data});
     });
+
+    app.get('/Trending', (req, res) => {
+        res.render('./src/trend', { data: data });
+    });
+
+    app.get('/Coming-soon', (req, res) => {
+        res.render('./src/coming', { data: data });
+    });
+    
+
 
     const port = 3000;
     app.listen(port, () => {

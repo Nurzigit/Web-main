@@ -1,6 +1,7 @@
   {
     "items": [
         {
+            "id": "1",
             "images": "/image_1.png",
             "url": "/book",
             "name": "Обмен книгами",
@@ -8,17 +9,71 @@
             "isFavourite": true
         },
         {
+            "id": "2",
             "images": "/image_1.png",
             "url": "/exp",
             "name": "Обмен Опытом",
             "date": "2023.12.24",
-            "isFavourite": false
+            "isFavourite": true
         },
         {
+            "id": "3",
             "images": "/image_1.png",
             "url": "/study",
             "name": "Обмен знаниями",
             "date": "2023.12.24",
+            "isFavourite": false
+        }
+    ],
+
+    "trending": [
+        {
+            "id": "4",
+            "images": "/image_1.png",
+            "url": "/book",
+            "name": "48 законов власти",
+            "description": "«48 законов власти» — научно-популярная книга американского писателя Роберта Грина. Книга была признана бестселлером New York Times. Было продано более 1,2 миллиона экземпляров книги в Соединенных ",
+            "date": "2023.12.24",
+            "isFavourite": true
+        },
+        {
+            "id": "5",
+            "images": "/image_1.png",
+            "url": "/exp",
+            "name": "Событие в SmartPoint",
+            "date": "2023.12.24",
+            "isFavourite": true
+        },
+        {
+            "id": "6",
+            "images": "/image_1.png",
+            "url": "/study",
+            "name": "Событие в Нархозе",
+            "date": "2023.11.20",
+            "isFavourite": false
+        },
+        {
+            "id": "7",
+            "images": "/image_1.png",
+            "url": "/study",
+            "name": "Событие в Enu",
+            "date": "2024.04.05",
+            "isFavourite": false
+        },
+        {
+            "id": "8",
+            "images": "/image_1.png",
+            "url": "/study",
+            "name": "Beeline Bootcapm",
+            "date": "2023.12.30",
+            "isFavourite": false
+        },
+        {
+            "id": "9",
+            "images": "/image_1.png",
+            "url": "/study",
+            "name": "Kolesa Group",
+            "date": "2024.01.03",
             "isFavourite": false
         }
     ]

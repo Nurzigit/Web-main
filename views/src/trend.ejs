@@ -12,18 +12,11 @@
     <%- include('./header.ejs'); %>
     <div class="favourites__body">
         <div class="favourites__body-text">
-            <span>Favourites</span>
+            <span>Trending at this moment</span>
         </div>
         <div class="cards">
-            <% data.items.forEach((item) => { %>
-                <% if (item.isFavourite) { %>
-                    <%- include('./card.ejs', { item: item }) %>
-                    <% } %>
-            <% }); %>
             <% data.trending.forEach((item) => { %>
-                <% if (item.isFavourite) { %>
                     <%- include('./card.ejs', { item: item }) %>
-                    <% } %>
             <% }); %>
         </div>
     </div>

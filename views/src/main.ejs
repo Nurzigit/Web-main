@@ -18,7 +18,7 @@
         <span>Curses</span>
     </div>
     <div class="cards">
-        <% data.forEach((item) => { %>
+        <% data.items.forEach((item) => { %>
             <%- include('./card.ejs', { item: item }) %>
         <% }); %>
     </div>
