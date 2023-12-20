@@ -76,5 +76,88 @@
             "date": "2024.01.03",
             "isFavourite": false
         }
+    ],
+    "book": [
+        {
+            "id": "4",
+            "images": "/image_1.png",
+            "name": "48 законов власти",
+            "description": "«48 законов власти» — научно-популярная книга американского писателя Роберта Грина. Книга была признана бестселлером New York Times. Было продано более 1,2 миллиона экземпляров книги в Соединенных ",
+            "date": "2023.11.07",
+            "isFavourite": true
+        },
+        {
+            "id": "5",
+            "images": "/image_1.png",
+            "name": "Убить пересмешника, Харпер Ли",
+            "date": "2023.11.24",
+            "isFavourite": true
+        },
+        {
+            "id": "6",
+            "images": "/image_1.png",
+            "name": "Гордость и предубеждение",
+            "date": "2023.11.20",
+            "isFavourite": false
+        },
+        {
+            "id": "7",
+            "images": "/image_1.png",
+            "name": "Дневник Анны Франк",
+            "date": "2023.12.05",
+            "isFavourite": false
+        },
+        {
+            "id": "8",
+            "images": "/image_1.png",
+            "name": "Гарри Поттер и философский камень",
+            "date": "2023.12.30",
+            "isFavourite": false
+        },
+        {
+            "id": "9",
+            "images": "/image_1.png",
+            "name": "Великий Гэтсби",
+            "date": "2023.11.03",
+            "isFavourite": false
+        }
+    ],
+    "exp": [
+        {
+            "id": "4",
+            "images": "/image_1.png",
+            "name": "Как устроится на работу",
+            "description": "«48 законов власти» — научно-популярная книга американского писателя Роберта Грина. Книга была признана бестселлером New York Times. Было продано более 1,2 миллиона экземпляров книги в Соединенных ",
+            "date": "2023.11.07",
+            "isFavourite": true
+        },
+        {
+            "id": "5",
+            "images": "/image_1.png",
+            "name": "Сколько зарабывает IT",
+            "date": "2023.11.24",
+            "isFavourite": true
+        },
+        {
+            "id": "6",
+            "images": "/image_1.png",
+            "name": "Что если?",
+            "date": "2023.11.20",
+            "isFavourite": false
+        },
+        {
+            "id": "7",
+            "images": "/image_1.png",
+            "name": "Как начать старт ап",
+            "date": "2023.12.05",
+            "isFavourite": false
+        },
+        {
+            "id": "8",
+            "images": "/image_1.png",
+            "name": "Можно ли?",
+            "date": "2023.12.30",
+            "isFavourite": false
+        }
     ]
 }

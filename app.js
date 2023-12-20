@@ -50,6 +50,12 @@ function runServer(data) {
     app.get('/Coming-soon', (req, res) => {
         res.render('./src/coming', { data: data });
     });
+    app.get('/book', (req, res) => {
+        res.render('./src/book', { data: data });
+    });
+    app.get('/exp', (req, res) => {
+        res.render('./src/exp', { data: data });
+    });
     
 
 
